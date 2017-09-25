@@ -1,0 +1,201 @@
+/*table {
+    
+    margin-top: 5px;
+    margin-bottom: 5px; */
+    /*background-color:yellow;*/
+    /*margin-top: 50px;
+
+
+} */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#titulo{
+    color: #800080;
+    font-weight: bold;
+   
+    
+}
+
+/* Header */
+
+/* da pra juntar tudo no mesmo background*/
+/* background: url('../img/paisagem.jpg') center center cover no-repeat - há uma ordem certa */
+
+header{
+    background-image: url('../img/paisagem.jpg');
+    /*para colocar imagem como header*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #b3e0ff;
+    
+}
+
+header h1{
+    padding-top: 15px;
+
+}
+
+img.center{
+    display: block;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 2px 0;
+    background-color:#808080;
+    /* dar cor pra link*/
+    /*color:#ffffff;*/
+}
+nav ul li a{
+    color:#ffffff;
+    text-decoration: none;
+    /*tirar o underline*/
+}
+
+nav ul li a:hover{
+    color:#ff0099;
+}
+/*hover- passar o mouse por cima e mudar a cor*/
+
+nav ul li{
+    display: inline;
+    padding-right: 5px;
+    /*separar os itens da lista*/
+}
+
+
+/* Tabela */
+.linhaAzul{
+    color:#00008b;
+
+}
+
+
+/*para colorir as celulas*/
+table, th, td{
+    background-color: lightblue;
+    /*borda de cada célula*/
+    border: 1px dashed black;
+    margin: 50px 0;
+}
+
+
+/* Resumo */
+section {
+    background-color: green;
+    color:#000000;
+    /* w e h pode ser em pixel ou porcentagem ou em(uni de medida proporcional)*/
+    min-width: 50%; /*100%*/
+    min-height: 50%; /*50%*/
+
+    /*tamanho min e ma: min-width/ min-height*/
+   /* padding: 100px 0 90px 50px;*/
+   padding: 10px 20px;
+   /*zero sem px*/
+   /* padding types: padding-top, padding-right, padding-bottom, padding-left*/ 
+    /*border:5px solid lightgray;*/
+   /*border-style: dashed solid dotted inset;*/
+   /* dashed*/
+   /*solid*/
+   /*dotted*/
+   /*groove*/
+   /*double*/
+   /*inset*/
+   /*outset*/
+   /*none*/
+   /* solid dashed dotted inset - da pra deixar cada lado de um jeito*/
+
+  
+   box-sizing: border-box;
+   /*vai levar o conteudo e só dps vai considerar as alterações. border-box coniderar as medidas acima padrao é contain box*/
+  /* border-width: 10px;*/
+   /*da pra deixar cada lado da borda com um tamanho*/
+
+   /*border-radius: 30px;*/
+   /*borda arredondada. da para arredondar a imagem*/
+
+  /* border-color:#ff0000;*/
+   
+}
+
+/*img não é uma class*/
+
+section h3{
+    text-align: center;
+}
+
+
+/*todas as imagens dentro da section img vão aderir a este padrão*/
+section img {
+    max-width: 100px;
+    /*deixa a img arredonda*/
+    border-radius:50%;
+    padding: 25 0 0 25px;
+}
+
+
+
+/*Suporte*/
+/*
+#suporte { */
+    /*background-color: green; */
+    /*color:#000000;*/
+    /* w e h pode ser em pixel ou porcentagem ou em(uni de medida proporcional)*/
+    /*max-width: 50%; /*100%*/
+    /*max-height: 50%; /*50%*/
+    /*padding: 10px 20px;*/
+
+    /*tamanho min e ma: min-width/ min-height*/
+   /* padding: 100px 0 90px 50px;*/
+   /*padding: 100px 0 90px 50px;*/
+   /*zero sem px*/
+   /* padding types: padding-top, padding-right, padding-bottom, padding-left*/ 
+    /*border:5px solid lightgray;*/
+   /*border-style: dashed solid dotted inset;*/
+   /* dashed*/
+   /*solid*/
+   /*dotted*/
+   /*groove*/
+   /*double*/
+   /*inset*/
+   /*outset*/
+   /*none*/
+   /* solid dashed dotted inset - da pra deixar cada lado de um jeito*/
+
+  
+   /*box-sizing: border-box;*/
+   /*vai levar o conteudo e só dps vai considerar as alterações. border-box coniderar as medidas acima padrao é contain box*/
+   /*border-width: 10px;*/
+   /*da pra deixar cada lado da borda com um tamanho*/
+
+   /*border-radius: 40px;*/
+   /*borda arredondada. da para arredondar a imagem*/
+
+  /* border-color:#ff0000;*/
+   
+
+
+footer {
+    text-align: center;
+    background-color: sandybrown;
+    padding: 2px;
+    margin-top: 50px;
+    
+}
+
+footer a {
+    color:yellow;
+    text-decoration: none;
+}
+footer a:hover{
+
+    color: #ff0099;
+   
+}
+
+.heart {
+    color:red;
+}
